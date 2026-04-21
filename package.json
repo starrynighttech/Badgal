@@ -1,16 +1,12 @@
 {
-  "name": "star-baddie",
-  "private": true,
-  "scripts": {
-    "dev": "node apps/api/server.js"
-  },
+  "name": "starry-night-v7",
+  "version": "1.0.0",
   "dependencies": {
     "express": "^4.18.2",
-    "socket.io": "^4.7.2",
-    "mongoose": "^8.0.0",
-    "jsonwebtoken": "^9.0.0",
-    "bcryptjs": "^2.4.3",
-    "dotenv": "^16.3.1",
-    "cors": "^2.8.5"
+    "cors": "^2.8.5",
+    "jsonwebtoken": "^9.0.0"
+  },
+  "scripts": {
+    "start": "node apps/api/server.js"
   }
 }
