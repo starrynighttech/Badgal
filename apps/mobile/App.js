@@ -1,9 +1,16 @@
-import { Text, View } from "react-native"
+import { View, Text } from "react-native"
 
 export default function App() {
   return (
-    <View style={{ flex:1, justifyContent:"center", alignItems:"center" }}>
-      <Text>Star Baddie App ✨</Text>
+    <View style={{
+      flex: 1,
+      backgroundColor: "#000",
+      alignItems: "center",
+      justifyContent: "center"
+    }}>
+      <Text style={{ color: "white", fontSize: 20 }}>
+        STARRY NIGHTS GLOBAL APP
+      </Text>
     </View>
   )
 }
